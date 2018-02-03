@@ -1,0 +1,4 @@
+* { transition: all .15s ease-in-out; }
+.close { opacity: 0; }
+.list-group-item:hover .close { opacity: 1; }
+.close i { font-size: .75em; }
