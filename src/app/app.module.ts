@@ -8,13 +8,14 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { PostsComponent } from './posts/posts.component';
 
+// TODO: Fill in the following configuration variables
 const firebaseConfig = {
-  apiKey: 'AIzaSyAvR1cgc_coFceW8rRUTNT7YTHyH4-1Q58',
-  authDomain: 'angular5-firestore-91939.firebaseapp.com',
-  databaseURL: 'https://angular5-firestore-91939.firebaseio.com',
-  projectId: 'angular5-firestore-91939',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
   storageBucket: '',
-  messagingSenderId: '640271726513'
+  messagingSenderId: ''
 };
 
 @NgModule({
